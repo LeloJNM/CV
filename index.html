@@ -2,36 +2,24 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Aurelio Resume</title>
+  <title>Currículo Aurelio</title>
   <style>
-    body {
+    html, body {
       margin: 0;
-      background: #f2f2f2;
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      font-family: Arial, sans-serif;
-    }
-    header {
-      padding: 10px;
-      background: #333;
-      color: white;
-      text-align: center;
+      padding: 0;
+      height: 100%;
     }
     iframe {
-      flex: 1;
       border: none;
       width: 100%;
+      height: 100%;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Currículo Aurélio Magalhaes</h1>
-    <p><a href="Aurelio_resume.pdf" target="_blank" style="color: #ffa;">Baixar PDF</a></p>
-  </header>
   <iframe src="Aurelio_resume.pdf">
-    <p>Seu navegador não suporta exibição embutida de PDF. <a href="Aurelio_resume.pdf">Clique aqui para baixar.</a></p>
+    <!-- Fallback para navegadores que não suportam iframe em PDF -->
+    <p>Se você não consegue ver o PDF, <a href="Aurelio_resume.pdf">clique aqui para baixar</a>.</p>
   </iframe>
 </body>
 </html>
